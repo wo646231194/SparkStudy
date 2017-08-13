@@ -13,3 +13,8 @@ spark学习
 {	"name": "zhangsan",	"age": 1,	"gender": "famale"}
 {	"name": "mayan",	"age": 999,	"gender": "male"}
 ```
+## idea 调试时添加
+
+```sbtshell
+-Dspark.master=local[2] -Dspark.app.name=SparkStudy
+```
